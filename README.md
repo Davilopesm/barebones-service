@@ -1,11 +1,13 @@
 # barebones-service
-Simple barebone for a Node application using Typescript, Express and Knex
+Simple barebone service for a Node application using Docker Compose, Node.js(Typescript), Express and Knex (MySQL)
 
 
 # Runnning
 `npm i`
 
 `cp .env.example .env`
+
+`docker-compose up mysql`
 
 `npm run build && npm run start`
 
